@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #d0d6f3 0%, #efe9f6 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.m{
+   
+    width: 100%;
+    max-width: 450px;
+}
+
+.user_container{
+     background-color: #fcbaf8;
+   
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.user_container h2{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.input-signup{
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.input-signup input{
+    width: 100%;
+    padding: 14px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    text-align: right;
+    background: #f8f9fa;
+}
+
+.input-signup input:focus{
+    border-color: #667eea;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+.input-signup input::placeholder{
+    color: #999;
+    font-size: 14px;
+}
+
+.btn{
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover{
+     background: #ff4141;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn:active{
+    transform: translateY(0);
+}
+
+.footer{
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer p{
+    color: #666;
+    font-size: 15px;
+}
+
+.footer a{
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.footer a:hover{
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* للجوال */
+@media (max-width: 480px){
+    .user_container{
+        padding: 25px 20px;
+    }
+    .user_container h2{
+        font-size: 19px;
+    }
+}

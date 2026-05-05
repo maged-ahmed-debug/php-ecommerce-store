@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding : 0;
+    list-style:none ;
+    text-decoration:none ;
+}
+body{
+    background-color:#e6bebe;
+}
+.sidebar_container{
+display: flex;
+position: relative;
+}
+.sidebar_container .sidebar{
+    background-color: rgb(178, 154, 198);
+    position: fixed;
+    right: 20px;
+    width: 230px;
+    height: 95%;
+}
+.sidebar_container .sidebar h1{
+    margin-bottom: 30px;
+color: black;
+text-align: center;
+margin-top: 10;     
+}
+.sidebar_container .sidebar ul li{
+font-size: 25px;
+padding: 8px;
+border-bottom:1px solid #58f0c5;
+}
+.sidebar_container .sidebar ul li i{
+    margin-left: 10px;
+    color: rgb(66, 131, 9);
+
+}
+.sidebar_container .sidebar ul li a{
+    display: block;
+    color: rgb(61, 3, 3);
+    padding: 4px;
+}
+.sidebar_container .sidebar ul li a:hover{
+background-color: rgb(255, 249, 249);
+color: red;
+}
+.sidebar_container .content_sec{
+    width: 70%;
+    margin-left: 40px;
+padding: 20px;
+}
+.sidebar_container .content_sec label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    margin-right: 40px;
+    text-align: right;
+}
+.sidebar_container .content_sec input{
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.sidebar_container .content_sec .add{
+background-color: #f19f1b;
+width: 32%;
+border: none;
+color: rgb(0, 0, 0);
+padding: 15px 30px;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+border-radius: 4px;
+}
+.sidebar_container .content_sec .add:hover{
+    background-color: rgb(255, 249, 249);
+color: red;   
+}
+.sidebar_container table{
+    background-color: #e6bebe;
+    width: 95%;
+    border-collapse: collapse;
+}
+.sidebar_container table th,td {
+font-size: 22px;
+padding: 8px;
+text-align: center;
+border: 2px solid #ddd;
+}
+ .sidebar_container table th{
+    background-color: rgb(255, 249, 249);
+ }
+  .sidebar_container table .delet{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(225, 114, 114);
+    padding: 8px 18px;
+    border-radius: 2px;
+    border: 1px solid red;
+margin-right: 5px;
+  }
+  .sidebar_container table .delet:hover{
+     background-color: rgb(255, 249, 249);
+color: red;   
+  }
+  /*بداية استايل صفحة اضافة المنتج*/
+*{
+    background-color: #d6cfcf; 
+}
+.form_product{
+    width: 70%;
+    margin: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,1);
+}
+h1{
+   
+    padding: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+     background-color:#ffffff; 
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    width: 83%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f62828;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover{
+     background-color: rgb(24, 57, 248);
+    color: #000000;
+}
+#form_control{
+     background-color: #ffffff; 
+    width: 84%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size:18px;
+     font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+
+.sidebar_container table img{
+    width: 100px;
+    height: 80px;
+}
+
+
+  /*نهاية استايل صفحة اضافة المنتج*/
